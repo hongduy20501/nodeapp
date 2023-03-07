@@ -6,4 +6,8 @@ router.get("/", function(req,res){
    // res.json({"message": "this is index page"});
    res.render("index");
 });
+router.get("/services", function(req,res){
+   
+   res.render("services");
+});
 module.exports = router;
